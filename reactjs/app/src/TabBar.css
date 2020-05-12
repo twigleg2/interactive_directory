@@ -1,0 +1,14 @@
+
+.TabBar {
+    display: flex;
+    flex-direction: row; /* row is default */
+    flex-wrap: nowrap; /* nowrap is default */
+    justify-content: flex-start; /* flex-start is default */
+    align-items: center;
+    align-content: center; /* this property has no effect if there is only one line of items, which should be the case becuase flex-wrap is set to nowrap */
+
+    margin-top: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}

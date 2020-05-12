@@ -1,0 +1,14 @@
+
+.Tab {
+    font-size: 2em;
+    background-color: rgba(0,0,0,0);
+    color: #444;
+    border-radius: 7px;
+}
+
+.Tab:focus {outline:0;}
+
+.Selected {
+  color: #F7F5F0;
+  background-color: #444;
+}

@@ -1,0 +1,8 @@
+.App {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: [left] 50% [middle] 50% [end];
+  grid-template-rows: [top] 40% [middle] 60% [end];
+  color: #444;
+  background-color: #F7F5F0;
+}

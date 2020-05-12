@@ -1,0 +1,30 @@
+/* **DOT LEADERS** */
+.ServiceListItem {
+    display: flex;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.ServiceListItem .name,
+.ServiceListItem .roomNum {
+    flex: 1 0 auto;
+}
+.ServiceListItem .dots {
+    flex: 0 1 auto;
+    /*Allows too long content to be hidden.*/
+    overflow: hidden;
+}
+.dots::before {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    content:
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . "
+}
+/* **END DOT LEADERS** */

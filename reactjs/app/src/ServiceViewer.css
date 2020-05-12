@@ -1,0 +1,18 @@
+.ServiceViewer {  
+  grid-column: left / middle;
+  grid-row: top / middle;
+  
+  /* background-color: #444; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .ServiceViewer .Title {
+  font-size: 2.5em;
+} */
+
+.ServiceViewer .Person {
+  font-size: 1.5em;
+}

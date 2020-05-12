@@ -1,0 +1,11 @@
+.PersonDirectory {
+    grid-column: middle / end;
+    grid-row: top / end;
+
+    border-left: 1px solid black;
+    /* background-color: #AAA; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+  
