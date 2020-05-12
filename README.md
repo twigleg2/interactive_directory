@@ -1,2 +1,3 @@
 # interactive_directory
-## This is for future employers to view
+A sample of my work at BYU Law IT
+Permision was granted to display it here.
